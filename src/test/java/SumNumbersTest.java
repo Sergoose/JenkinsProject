@@ -6,7 +6,7 @@ public class SumNumbersTest {
     public void sumTestToBePassed() {
         SumNumbers sumNumbers = new SumNumbers();
         int actualResult = sumNumbers.sum(5);
-        assertEquals(5, actualResult);
+        assertEquals(15, actualResult);
     }
 
     @org.junit.Test
